@@ -33,11 +33,13 @@ DEBUG = True
 ALLOWED_HOSTS = [
     'localhost',
     '127.0.0.1',
-    'dhavalbhadre-8000.theiadockernext-0-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai'
+    'dhavalbhadre-8000.theiadockernext-0-labs-prod-theiak8s-4-' +
+    'tor01.proxy.cognitiveclass.ai'
 ]
 
 CSRF_TRUSTED_ORIGINS = [
-    'https://dhavalbhadre-8000.theiadockernext-0-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai'
+    'https://dhavalbhadre-8000.theiadockernext-0-labs-prod-theiak8s-4-' +
+    'tor01.proxy.cognitiveclass.ai'
 ]
 CSRF_COOKIE_SECURE = False
 REST_FRAMEWORK = {
